@@ -1,0 +1,47 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/*Search Input*/
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.fa-earth-americas {
+    font-size: 60px
+}
+
+.weather-box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    text-align: center; 
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.weather-input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 15px;
+    background-color: #0d63f8;
+    color: white;
+    border: none;
+}
+
+button:hover {
+   background-color: blue;
+   transition: background-color 0.5s ease;
+}
