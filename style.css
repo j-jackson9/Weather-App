@@ -44,4 +44,9 @@ button {
 button:hover {
    background-color: blue;
    transition: background-color 0.5s ease;
+   cursor: pointer;
+}
+
+.weather-icon {
+    display: none;
 }
